@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFitness">
         <activity
+            android:name=".fitness_advice"
+            android:exported="false"
+            android:label="@string/title_activity_fitness_advice"
+            android:theme="@style/Theme.MyFitness.NoActionBar" />
+        <activity
             android:name=".list_fitnes"
             android:exported="false"
             android:label="@string/title_activity_list_fitnes"
