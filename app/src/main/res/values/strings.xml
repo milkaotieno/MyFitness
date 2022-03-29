@@ -9,5 +9,6 @@
     <string name="height">Height</string>
     <string name="weight">Weight</string>
     <string name="fat">Fat</string>
+    <string name="myname">Enter Name</string>
     <string name="title_activity_fitness_advice">fitness_advice</string>
 </resources>
