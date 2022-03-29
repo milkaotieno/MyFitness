@@ -8,9 +8,6 @@
     <string name="previous">Previous</string>
     <string name="height">Height</string>
     <string name="weight">Weight</string>
-
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="fat">Fat</string>
     <string name="title_activity_fitness_advice">fitness_advice</string>
 </resources>
