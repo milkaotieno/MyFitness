@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     int num1 = Integer.parseInt(firstNum.getText().toString());
                     int num2 = Integer.parseInt(secNum.getText().toString());
-                    float bmi= (float)(num1/((num2/100)*(num2/100)));
+                    float bmi= (float)((num1)/((num2/100)*(num2/100)));
                     Toast.makeText(getApplicationContext(), "BMI = " + bmi, Toast.LENGTH_SHORT).show();
                 }
             }
