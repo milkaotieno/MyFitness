@@ -1,8 +1,7 @@
 # MyFitness App
 
 # Description
-* About
-  MyFitness is an android app that tracks people's fitness and advices them how to keep fit.
+* MyFitness is an android app that tracks people's fitness and advices them how to keep fit.
 
 ## Author
 By Otieno Milka
@@ -13,7 +12,7 @@ By Otieno Milka
 
 ## Technologies Used
 * Java
-* 
+* Android Studio
 * 
 * 
 * 
@@ -38,7 +37,7 @@ To install:-
 ### Project live link
 ****
 Click on the link provided bellow to enable you download the apk.
-* 
+* to be added
 
 ## Known Bugs
 All bugs encountered were resolved
