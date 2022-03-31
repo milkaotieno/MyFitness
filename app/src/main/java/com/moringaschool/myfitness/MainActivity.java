@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        final EditText firstNum = (EditText)findViewById(R.id.firstNum);
-        final EditText secNum = (EditText)findViewById(R.id.secondNum);
-        Button btnAdd = (Button)findViewById(R.id.addBtn);
+        final EditText firstNum = findViewById(R.id.firstNum);
+        final EditText secNum = findViewById(R.id.secondNum);
+        Button btnAdd = findViewById(R.id.addBtn);
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 else {
                     int num1 = Integer.parseInt(firstNum.getText().toString());
                     int num2 = Integer.parseInt(secNum.getText().toString());
-                    float bmi= (num1/((num2/100)*(num2/100)));
+                    float bmi= (float)(num1/((num2/100)*(num2/100)));
                     Toast.makeText(getApplicationContext(), "BMI = " + bmi, Toast.LENGTH_SHORT).show();
                 }
             }
