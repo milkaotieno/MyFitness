@@ -2,6 +2,7 @@ package com.moringaschool.myfitness;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,11 +26,22 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Please fill all the fields", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    int num1 = Integer.parseInt(firstNum.getText().toString());
-                    int num2 = Integer.parseInt(secNum.getText().toString());
-                    float bmi= (float)((num1)/((num2/100)*(num2/100)));
+
+                    float weight = Float.parseFloat(firstNum.getText().toString());
+                    //coverting centimeter to meter
+                    float height_mt = Float.parseFloat(secNum.getText().toString())/100;
+                    //calculating BMI
+                    float bmi= weight(height_mt * height_mt);
                     Toast.makeText(getApplicationContext(), "BMI = " + bmi, Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        Button btnAdd1 = findViewById(R.id.NextBtn);
+        btnAdd1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), list_fitnes.class);
+                startActivity(i);
             }
         });
     }
