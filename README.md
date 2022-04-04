@@ -13,18 +13,20 @@ By Otieno Milka
 ## Technologies Used
 * Java
 * Android Studio
-* 
-* 
-* 
-* 
+* Recycler view
+* Adapters
+* Toasts
+### Project live link
+****
+Click on the link provided bellow to enable you download the apk.
+* https://ufile.io/gzfpb5u9
 
 ### Installation Process
 To install:-
-* 
-* 
-* 
-* 
-* 
+* Download from the link provided
+* Double click the apk and accept to install from unkown link
+
+
 
 ### How the Project works
 * Launch the application then,  land on search page.
@@ -33,11 +35,6 @@ To install:-
 * 
 
 
-
-### Project live link
-****
-Click on the link provided bellow to enable you download the apk.
-* https://ufile.io/gzfpb5u9
 
 ## Known Bugs
 All bugs encountered were resolved
