@@ -2,21 +2,5 @@
     <string name="app_name">MyFitness</string>
     <string name="title_activity_list_fitnes">list_fitnes</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-    <string name="height">Height</string>
-    <string name="weight">Weight</string>
-    <string name="fat">Fat</string>
-    <string name="myname">Enter Name</string>
-    <string name="advice">
-        •  Stay Motivated.
-    • Exercise Daily. Exercise daily for at least an hour.
-    • Eat the Right Foods and Portion Each Meal. No matter how bad your stomach is telling you to go for candy over healthy food, try to stay away from sweets.
-    • Keep Track of Calories and Food Intake Per Day.
-    • Be Sure to Get Sleep.
-
-</string>
     <string name="title_activity_fitness_advice">fitness_advice</string>
 </resources>

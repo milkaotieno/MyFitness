@@ -6,20 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     tools:context=".list_fitnes">
+<TextView
+    android:id="@+id/txtwelcome"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter Height CM"
+    android:layout_marginLeft="30dp" />
 
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <Button
-        android:id="@+id/fprevtBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="Previous" />
-
-    <Button
-        android:id="@+id/fnextBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:text="Next" />
 
 </LinearLayout>

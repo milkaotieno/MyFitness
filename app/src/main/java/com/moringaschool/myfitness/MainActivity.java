@@ -10,13 +10,15 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-
+ public float  bmi;
+ public String fullname;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final EditText firstNum = findViewById(R.id.firstNum);
         final EditText secNum = findViewById(R.id.secondNum);
+        final EditText fulname = findViewById(R.id.fname);
         Button btnAdd = findViewById(R.id.addBtn);
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,8 +33,17 @@ public class MainActivity extends AppCompatActivity {
                     //coverting centimeter to meter
                     float height_mt = Float.parseFloat(secNum.getText().toString())/100;
                     //calculating BMI
-                    float bmi= weight(height_mt * height_mt);
-                    Toast.makeText(getApplicationContext(), "BMI = " + bmi, Toast.LENGTH_SHORT).show();
+                     bmi= weight/(height_mt * height_mt);
+                     //Get fullname
+                    fullname = fulname.getText().toString();
+                    Toast.makeText(getApplicationContext(), fullname+" Your BMI = " + bmi, Toast.LENGTH_SHORT).show();
+                    Bundle bundle = new Bundle();
+                    //passing fullname and bmi to the list fitness
+                    bundle.putString("fname",fullname);
+                    bundle.putFloat("bmi",bmi);
+                    Intent i = new Intent(getApplicationContext(), list_fitnes.class);
+                    i.putExtras(bundle);
+                    startActivity(i);
                 }
             }
         });
