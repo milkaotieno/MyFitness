@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyFitness</string>
+    <string name="app_name">My Fitness</string>
     <string name="title_activity_list_fitnes">list_fitnes</string>
     <!-- Strings used for fragments for navigation -->
     <string name="title_activity_fitness_advice">fitness_advice</string>

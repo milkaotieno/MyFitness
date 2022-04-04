@@ -54,6 +54,26 @@ public class list_fitnes extends AppCompatActivity {
 
 
         }
+        Button btnAdd1 = findViewById(R.id.prevBtn);
+        btnAdd1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(i);
 
+            }
+        });
+        Button btnAdd2 = findViewById(R.id.nextadvice);
+        btnAdd2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bundle.putString("fname",fullname);
+                bundle.putFloat("bmi",bmi);
+                Toast.makeText(getApplicationContext(), fullname+" Your BMI = " + bmi, Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(getApplicationContext(), fitness_advice.class);
+                i.putExtras(bundle);
+                startActivity(i);
+            }
+        });
          }
 }

@@ -37,7 +37,7 @@ To install:-
 ### Project live link
 ****
 Click on the link provided bellow to enable you download the apk.
-* to be added
+* https://ufile.io/gzfpb5u9
 
 ## Known Bugs
 All bugs encountered were resolved

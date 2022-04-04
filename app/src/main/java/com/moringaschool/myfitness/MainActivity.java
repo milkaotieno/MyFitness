@@ -47,13 +47,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Button btnAdd1 = findViewById(R.id.NextBtn);
-        btnAdd1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), list_fitnes.class);
-                startActivity(i);
-            }
-        });
+
     }
 }
