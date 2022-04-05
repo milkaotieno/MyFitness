@@ -24,36 +24,43 @@ public class fitness_advice extends AppCompatActivity {
         textView=(TextView)  findViewById(R.id.txtwelcomef);
 
         listFitness[] underwght = new listFitness[] {
-                new listFitness("Under Weight", android.R.drawable.ic_dialog_email),
-                new listFitness("Under Weight", android.R.drawable.ic_dialog_info),
-                new listFitness("Under Weight", android.R.drawable.ic_delete),
-                new listFitness("Under Weight", android.R.drawable.ic_dialog_dialer),
-                new listFitness("Under Weight", android.R.drawable.ic_dialog_alert),
-                new listFitness("Under Weight", android.R.drawable.ic_dialog_map)
+                new listFitness("Buy in foods that you enjoy", android.R.drawable.ic_dialog_email),
+                new listFitness("Try to eat something every few hours even if it is only a small snack.", android.R.drawable.ic_dialog_info),
+                new listFitness("Aim for 3 small meals and 3 small snacks per day.", android.R.drawable.ic_delete),
+                new listFitness("You may find that if you eat breakfast you will eat better for the rest of the day.", android.R.drawable.ic_dialog_dialer),
+                new listFitness("Share cooking and eating at mealtimes with family or friends if possible.", android.R.drawable.ic_dialog_alert),
+                new listFitness("Keep a store cupboard of easily prepared foods e.g. tinned meat and fish, tinned macaroni or ravioli, UHT or long life milk, dried potato, packet soups, tins or instant puddings.", android.R.drawable.ic_dialog_map),
+                new listFitness("Use convenience foods with require little preparation e.g. quiche, pie, burger, sausage roll, bridie, pizza or ready meals.", android.R.drawable.ic_dialog_alert),
+                new listFitness("Take milk, milky drinks, ordinary fizzy juices or fruit juices instead of just tea and coffee.", android.R.drawable.ic_dialog_map),
+                new listFitness("Try to make food appetising and serve smaller portions. You can always have seconds if you are still hungry.", android.R.drawable.ic_dialog_alert),
+                new listFitness("https://www.theyellowpractice.co.uk/keeping-healthy/advice-for-those-who-need-to-gain-weight/", android.R.drawable.ic_dialog_map)
+
         };
         listFitness[] healthywght = new listFitness[] {
-                new listFitness("Healty", android.R.drawable.ic_dialog_email),
-                new listFitness("Healty", android.R.drawable.ic_dialog_info),
-                new listFitness("Healty", android.R.drawable.ic_delete),
-                new listFitness("Healty", android.R.drawable.ic_dialog_dialer),
-                new listFitness("Healty", android.R.drawable.ic_dialog_alert),
-                new listFitness("Healty", android.R.drawable.ic_dialog_map)
+                new listFitness("Exercise often.", android.R.drawable.ic_dialog_email),
+                new listFitness("Eat a healthy breakfast daily.", android.R.drawable.ic_dialog_info),
+                new listFitness("Stay hydrated.", android.R.drawable.ic_delete),
+                new listFitness(" Eat responsibly and mindfully.", android.R.drawable.ic_dialog_dialer),
+                new listFitness(" Decrease screen time.", android.R.drawable.ic_dialog_alert),
+                new listFitness("Get cookbooks.", android.R.drawable.ic_dialog_map)
+
         };
         listFitness[] overwght = new listFitness[] {
-                new listFitness("Overwight", android.R.drawable.ic_dialog_email),
-                new listFitness("Overwight", android.R.drawable.ic_dialog_info),
-                new listFitness("Overwight", android.R.drawable.ic_delete),
-                new listFitness("Overwight", android.R.drawable.ic_dialog_dialer),
-                new listFitness("Overwight", android.R.drawable.ic_dialog_alert),
-                new listFitness("Overwight", android.R.drawable.ic_dialog_map)
+                new listFitness("Changing your habits", android.R.drawable.ic_dialog_email),
+                new listFitness("Practice Weight-management programs", android.R.drawable.ic_dialog_info),
+                new listFitness("Healthy eating plan and regular physical activity", android.R.drawable.ic_delete),
+                new listFitness("Weight-loss medicines", android.R.drawable.ic_dialog_dialer),
+                new listFitness("Plan your meals ahead of time.", android.R.drawable.ic_dialog_alert),
+                new listFitness("Special diets", android.R.drawable.ic_dialog_map)
+
         };
         listFitness[] obessedwght = new listFitness[] {
-                new listFitness("Obesity", android.R.drawable.ic_dialog_email),
-                new listFitness("Obesity", android.R.drawable.ic_dialog_info),
-                new listFitness("Obesity", android.R.drawable.ic_delete),
-                new listFitness("Obesity", android.R.drawable.ic_dialog_dialer),
-                new listFitness("Obesity", android.R.drawable.ic_dialog_alert),
-                new listFitness("Obesity", android.R.drawable.ic_dialog_map)
+                new listFitness(" Bariatric surgery", android.R.drawable.ic_dialog_email),
+                new listFitness("Weight-loss devices", android.R.drawable.ic_dialog_info),
+                new listFitness("Practice Weight-management programs", android.R.drawable.ic_delete),
+                new listFitness("Special diets", android.R.drawable.ic_dialog_dialer),
+                new listFitness("Changing your habits", android.R.drawable.ic_dialog_alert),
+                new listFitness("Healthy eating plan and regular physical activity", android.R.drawable.ic_dialog_map)
         };
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         if (getIntent().getExtras() != null)

@@ -24,7 +24,7 @@ Click on the link provided bellow to enable you download the apk.
 ### Installation Process
 To install:-
 * Download from the link provided
-* Double click the apk and accept to install from unkown link
+* Double click the apk and accept to install from unknown link
 
 
 
