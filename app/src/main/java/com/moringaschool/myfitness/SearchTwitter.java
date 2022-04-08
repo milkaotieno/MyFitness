@@ -1,8 +1,13 @@
 package com.moringaschool.myfitness;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+
+import java.util.ArrayList;
 
 public class SearchTwitter extends AppCompatActivity {
 
@@ -36,4 +41,6 @@ public class SearchTwitter extends AppCompatActivity {
 
         super.onDestroy();
     }
+
+
 }
