@@ -20,6 +20,7 @@ By Otieno Milka
 ****
 Click on the link provided bellow to enable you download the apk.
 * https://ufile.io/gzfpb5u9
+* The aqpp consumes API as in the link below https://ufile.io/861s5skn
 
 ### Installation Process
 To install:-
