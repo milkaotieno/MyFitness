@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Context;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -41,6 +42,15 @@ public class SearchTwitter extends AppCompatActivity {
 
         super.onDestroy();
     }
+private ArrayList<Tweet> loadTweets(){
+        ArrayList<Tweet> twits = new ArrayList<Tweet>();
+        try {
 
+        }
+        catch (Exception e){
+            Toast.makeText("Error encountered loading tweets",Toast.LENGTH_SHORT,1);
+        }
+}
 
 }
+
