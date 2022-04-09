@@ -75,5 +75,13 @@ public class list_fitnes extends AppCompatActivity {
                 startActivity(i);
             }
         });
+        Button btnGeTwitter = findViewById(R.id.btnGetTwitter);
+        btnGeTwitter.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent t = new Intent(getApplicationContext(), SearchTwitter.class);
+                startActivity(t);
+            }
+        });
          }
 }

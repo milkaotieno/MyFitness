@@ -12,25 +12,36 @@
     android:layout_height="wrap_content"
     android:text=""
     android:layout_marginLeft="30dp" />
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="30dp"
-    android:orientation="horizontal">
-    <Button
-        android:id="@+id/prevBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:text="Previous" />
-    <Button
-        android:id="@+id/nextadvice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Get Advice" />
-</LinearLayout>
 
+    <LinearLayout
+        android:layout_width="325dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/prevBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/nextadvice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:padding="15dp"
+            android:text="Get Advice" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGetTwitter"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Get Twitter" />
 
 
 </LinearLayout>

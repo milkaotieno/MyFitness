@@ -5,8 +5,9 @@
       <map>
         <entry key="app/src/main/res/drawable/border.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_fitness_advice.xml" value="0.25" />
-        <entry key="app/src/main/res/layout/activity_list_fitnes.xml" value="0.3536711478800414" />
+        <entry key="app/src/main/res/layout/activity_list_fitnes.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_search_twitter.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_fitness_advice.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_list_fitnes.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fitness_advice.xml" value="0.1" />
