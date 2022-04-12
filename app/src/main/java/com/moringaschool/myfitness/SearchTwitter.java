@@ -64,7 +64,7 @@ private ArrayList<Tweet> loadTweets(){
         String bearerToken = "AAAAAAAAAAAAAAAAAAAAAEoobQEAAAAAt7pFHG%2Fc8sxTySridMyoVo2DCZ4%3DimcDhLZoUL7nwGCF61fzXHbpvgZvoO5DNqWmU9xQN3a2NPbP2y";
         try {
             HttpClient cl = new DefaultHttpClient();
-            HttpGet httpGet = new HttpGet("https://api.twitter.com/2/tweets?ids=1261326399320715264,1278347468690915330");
+            HttpGet httpGet = new HttpGet("https://api.twitter.com/2/tweets?ids=1512328040050737157,1512007499146305538,1462004280706187267,1512654805801517056,1512114800859488258,1261326399320715264,1278347468690915330");
             httpGet.setHeader("Authorization", String.format("Bearer %s", bearerToken));
             httpGet.setHeader("Content-Type", "application/json");
             httpGet.setHeader("start_time", "2021-01-01T00:00:00Z");

@@ -25,6 +25,7 @@ public class fitness_advice extends AppCompatActivity {
 
         listFitness[] underwght = new listFitness[] {
                 new listFitness("Buy in foods that you enjoy", android.R.drawable.ic_dialog_email),
+                new listFitness("Buy in foods that you enjoy", android.R.drawable.ic_dialog_email),
                 new listFitness("Try to eat something every few hours even if it is only a small snack.", android.R.drawable.ic_dialog_info),
                 new listFitness("Aim for 3 small meals and 3 small snacks per day.", android.R.drawable.ic_delete),
                 new listFitness("You may find that if you eat breakfast you will eat better for the rest of the day.", android.R.drawable.ic_dialog_dialer),
