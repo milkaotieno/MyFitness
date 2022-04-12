@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "749517417037",
-    "project_id": "myfitness-1d9b2",
-    "storage_bucket": "myfitness-1d9b2.appspot.com"
+    "project_number": "157839644918",
+    "project_id": "myfitness-f92bf",
+    "storage_bucket": "myfitness-f92bf.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:749517417037:android:9dfd22ea1234aeabd40a04",
+        "mobilesdk_app_id": "1:157839644918:android:b131efcb6337fa596db4d7",
         "android_client_info": {
           "package_name": "com.moringaschool.myfitness"
         }
       },
       "oauth_client": [
         {
-          "client_id": "749517417037-urct2th9ps51jvo48519v7r8bk6blmkl.apps.googleusercontent.com",
+          "client_id": "157839644918-293aa08ncjb5eg4aa54aql8srejogsud.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDRkStS8cbnCpI4JMb8gaxh1SPyQzk_XzU"
+          "current_key": "AIzaSyDJyAtZqe9SjNw6jO7iouekAzLCwlcIHpo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "749517417037-urct2th9ps51jvo48519v7r8bk6blmkl.apps.googleusercontent.com",
+              "client_id": "157839644918-293aa08ncjb5eg4aa54aql8srejogsud.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
