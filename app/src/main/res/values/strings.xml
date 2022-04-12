@@ -3,4 +3,5 @@
     <string name="title_activity_list_fitnes">list_fitnes</string>
     <!-- Strings used for fragments for navigation -->
     <string name="title_activity_fitness_advice">fitness_advice</string>
+    <string name="web_client_id">157839644918-293aa08ncjb5eg4aa54aql8srejogsud.apps.googleusercontent.com</string>
 </resources>
