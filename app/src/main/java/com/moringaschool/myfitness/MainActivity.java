@@ -19,6 +19,14 @@ public class MainActivity extends AppCompatActivity {
         final EditText firstNum = findViewById(R.id.firstNum);
         final EditText secNum = findViewById(R.id.secondNum);
         final EditText fulname = findViewById(R.id.fname);
+        Button firebase= findViewById(R.id.firebselgn);
+        firebase.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Firebase.class);
+                startActivity(i);
+            }
+        });
         Button btnAdd = findViewById(R.id.addBtn);
         btnAdd.setOnClickListener(new View.OnClickListener() {
             @Override
