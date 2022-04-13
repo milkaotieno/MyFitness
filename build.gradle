@@ -7,3 +7,14 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+allprojects {
+    // ...
+
+    repositories {
+        // Check that you have the following line (if not, add it):
+
+    }
+}
+//you had added them

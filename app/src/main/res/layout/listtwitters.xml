@@ -7,7 +7,7 @@
 
 
     <TextView
-        android:id="@+id/"
+        android:id="@+id/header1"
         android:gravity="center_vertical"
         android:layout_width="fill_parent"
         android:singleLine="false"
