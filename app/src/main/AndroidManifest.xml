@@ -13,10 +13,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFitness">
         <activity
-            android:name=".Profile"
+            android:name=".PeopleActivity"
             android:exported="false" />
         <activity
-            android:name=".Firebase"
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
             android:exported="false" />
 
         <uses-library

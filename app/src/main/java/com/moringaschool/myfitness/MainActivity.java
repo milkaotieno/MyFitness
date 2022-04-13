@@ -23,7 +23,15 @@ public class MainActivity extends AppCompatActivity {
         firebase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), Firebase.class);
+                Intent i = new Intent(getApplicationContext(), Login.class);
+                startActivity(i);
+            }
+        });
+        Button reg= findViewById(R.id.btnreg);
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Registration.class);
                 startActivity(i);
             }
         });

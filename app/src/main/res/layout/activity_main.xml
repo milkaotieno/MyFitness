@@ -70,7 +70,11 @@
         android:id="@+id/firebselgn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
-
+        android:text="Login" />
+    <Button
+        android:id="@+id/btnreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register" />
 
 </LinearLayout>
