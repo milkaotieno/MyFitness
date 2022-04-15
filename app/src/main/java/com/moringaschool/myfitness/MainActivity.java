@@ -72,15 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        Button reg= findViewById(R.id.btnreg);
-        reg.setVisibility(View.GONE);
-        reg.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(getApplicationContext(), Registration.class);
-                startActivity(i);
-            }
-        });
+
 
 
     }

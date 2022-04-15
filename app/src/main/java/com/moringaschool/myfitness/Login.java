@@ -28,13 +28,20 @@ public class Login extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         mAuth = FirebaseAuth.getInstance();
-
         // initialising all views through id defined above
         emailTextView = findViewById(R.id.lemail);
         passwordTextView = findViewById(R.id.lpassword);
         Btn = findViewById(R.id.login);
         progressbar = findViewById(R.id.progressBar);
-
+        /* setting the button for login and setting its on click listener   */
+        Button reg= findViewById(R.id.btnreg);
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), Registration.class);
+                startActivity(i);
+            }
+        });
         // Set on Click Listener on Sign-in button
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
