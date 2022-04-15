@@ -13,6 +13,14 @@
     android:padding="15dp"
     tools:context=".Login">
 
+    <ImageView
+        android:id="@+id/logininage"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#309ACA"
+        android:visibility="visible"
+        tools:srcCompat="@tools:sample/avatars"
+        tools:visibility="visible" />
     <!-- TextView for heading -->
     <TextView
         android:layout_width="wrap_content"
@@ -53,4 +61,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="gone" />
+
+
 </LinearLayout>

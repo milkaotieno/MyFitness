@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText edittextWeight,edittextHeight,edittextFname,edittextlname,edittextAge ;
     private Button firebase;
     private ProgressBar progressbar;
+
     // creating a variable for our Firebase Database.
     FirebaseDatabase firebaseDatabase;
     // creating a variable for our Database Reference for Firebase.

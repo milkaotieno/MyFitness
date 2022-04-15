@@ -22,6 +22,7 @@ public class Registration extends AppCompatActivity {
     private Button Btn;
     private ProgressBar progressbar;
     private FirebaseAuth mAuth;
+    Bundle bundle = new Bundle();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -88,9 +89,11 @@ public class Registration extends AppCompatActivity {
 
                             // hide the progress bar
                             progressbar.setVisibility(View.GONE);
-
+                            //pass iregister flag to intent
+                            bundle.putInt("registered",1);
                             // if the user created intent to login activity
                             Intent intent = new Intent(Registration.this,Login.class);
+                            intent.putExtras(bundle);
                             startActivity(intent);
                         }
                         else {

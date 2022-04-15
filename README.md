@@ -22,6 +22,8 @@ Click on the link provided bellow to enable you download the apk.
 * https://ufile.io/gzfpb5u9
 The app consumes API as in the link below:
 * https://ufile.io/zpkg40e9
+Firebase functionalities implemented(IP3), 
+  * https://ufile.io/zl41qe9b
 
 ### Installation Process
 To install:-
