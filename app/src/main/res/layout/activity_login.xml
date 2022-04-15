@@ -29,7 +29,7 @@
     <!-- Edit text for password -->
     <EditText
         android:id="@+id/lpassword"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Enter your Password"
         android:inputType="textPassword" />
@@ -39,7 +39,9 @@
         android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:text="Login"
+
+        />
 
     <!-- ProgressBar for Loading Time -->
     <ProgressBar

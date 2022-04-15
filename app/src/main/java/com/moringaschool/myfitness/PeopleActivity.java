@@ -21,8 +21,7 @@ public class PeopleActivity extends AppCompatActivity {
         setContentView(R.layout.activity_people);
         // Create a instance of the database and get
         // its reference
-        mbase = FirebaseDatabase.getInstance().getReference();
-
+        mbase = FirebaseDatabase.getInstance("https://myfitness-f92bf-default-rtdb.asia-southeast1.firebasedatabase.app").getReference();
         recyclerView = findViewById(R.id.recycler1);
 
         // To display the Recycler view linearly

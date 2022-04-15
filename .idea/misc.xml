@@ -9,7 +9,7 @@
         <entry key="app/src/main/res/layout/activity_fitness_advice.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_list_fitnes.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.12864583333333332" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_people.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/activity_registration.xml" value="0.18229166666666666" />
@@ -20,7 +20,7 @@
         <entry key="app/src/main/res/layout/list_fitness.xml" value="0.1" />
         <entry key="app/src/main/res/layout/listtwitters.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/nav_host_fragment_content_list_fitnes.xml" value="0.13496376811594202" />
-        <entry key="app/src/main/res/layout/person.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/person.xml" value="0.18" />
       </map>
     </option>
   </component>
