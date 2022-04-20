@@ -26,7 +26,7 @@ public class Login extends AppCompatActivity {
     private ProgressBar progressbar;
     private Integer isregisted = 0;
     private FirebaseAuth mAuth;
-    //undle to get regitered flag
+    //bundle to get regitered flag
     Bundle extras = new Bundle();
     // image for login
     ImageView loginimage ;

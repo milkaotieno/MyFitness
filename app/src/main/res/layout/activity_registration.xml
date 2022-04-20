@@ -12,9 +12,10 @@
 
     <!-- TextView for heading -->
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="213dp"
         android:layout_height="wrap_content"
-        android:text="Register" />
+        android:text="Register"
+        android:textSize="30dp" />
 
     <!-- Edit text for email -->
     <EditText
@@ -30,6 +31,22 @@
         android:layout_height="wrap_content"
         android:hint="Enter your Password"
         android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Box Below to Capture your image"/>
+    <ImageView
+        android:id="@+id/logininage"
+        android:contextClickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#309ACA"
+        android:visibility="visible"
+        tools:srcCompat="@tools:sample/avatars"
+        tools:visibility="visible"
+        android:hint="Click Box Below to Capture your image"
+        />
 
     <!-- Button for register with text "Register" -->
     <Button

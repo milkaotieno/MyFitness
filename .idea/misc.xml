@@ -8,7 +8,7 @@
         <entry key="app/src/main/res/layout/activity_firebase.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/activity_fitness_advice.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_list_fitnes.xml" value="0.18" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.12864583333333332" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_people.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.18229166666666666" />
@@ -20,7 +20,11 @@
         <entry key="app/src/main/res/layout/list_fitness.xml" value="0.1" />
         <entry key="app/src/main/res/layout/listtwitters.xml" value="0.18229166666666666" />
         <entry key="app/src/main/res/layout/nav_host_fragment_content_list_fitnes.xml" value="0.13496376811594202" />
+        <entry key="app/src/main/res/layout/navbar.xml" value="0.10507246376811594" />
+        <entry key="app/src/main/res/layout/navmenu.xml" value="0.10507246376811594" />
         <entry key="app/src/main/res/layout/person.xml" value="0.18" />
+        <entry key="app/src/main/res/menu/navbar.xml" value="0.18229166666666666" />
+        <entry key="app/src/main/res/menu/test.xml" value="0.18229166666666666" />
       </map>
     </option>
   </component>

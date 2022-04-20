@@ -45,7 +45,7 @@ public class list_fitnes extends AppCompatActivity {
             }
             //Overweight  BMI
             if(bmi >= 25.0 && bmi < 29.9){
-                textView.setText("Welcome  "+fullname +"  Your BMI is "+bmi+" You are Overwight");
+                textView.setText("Welcome  "+fullname +"  Your BMI is "+bmi+" You are Overweight");
             }
             //Obessity BMI
             if(bmi >= 30.0 ){

@@ -1,16 +1,20 @@
 package com.moringaschool.myfitness;
 
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,9 +25,12 @@ import io.reactivex.rxjava3.annotations.NonNull;
 
 public class MainActivity extends AppCompatActivity {
     public float  bmi;
+    public DrawerLayout drawerLayout;
+    public ActionBarDrawerToggle actionBarDrawerToggle;
     private EditText edittextWeight,edittextHeight,edittextFname,edittextlname,edittextAge ;
     private Button firebase;
     private ProgressBar progressbar;
+    NavigationView mynav;
 
     // creating a variable for our Firebase Database.
     FirebaseDatabase firebaseDatabase;
@@ -35,6 +42,28 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        mynav =findViewById(R.id.navmenu);
+        mynav.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int id = view.getId();
+                Toast.makeText(getApplicationContext()," clicked"+id,Toast.LENGTH_SHORT);
+                if(id == R.id.nav_logout){
+                    Intent i = new Intent(getApplicationContext(), Login.class);
+                    startActivity(i);
+                }
+            }
+        });
+        // drawer layout instance to toggle the menu icon to open
+        // drawer and back button to close drawer
+        drawerLayout = findViewById(R.id.my_drawer_layout);
+        actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.nav_open, R.string.nav_close);
+        // pass the Open and Close toggle for the drawer layout listener
+        // to toggle the button
+        drawerLayout.addDrawerListener(actionBarDrawerToggle);
+        actionBarDrawerToggle.syncState();
+        // to make the Navigation drawer icon always appear on the action bar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // initializing our edittext and button
         edittextWeight = findViewById(R.id.firstNum);
         edittextHeight = findViewById(R.id.secondNum);
@@ -76,6 +105,20 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    }
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if (actionBarDrawerToggle.onOptionsItemSelected(item)) {
+            int id = item.getItemId();
+            Toast.makeText(getApplicationContext()," clicked"+id,Toast.LENGTH_SHORT);
+            if(id == R.id.nav_logout){
+                Intent i = new Intent(getApplicationContext(), Login.class);
+                startActivity(i);
+            }
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
     protected Float calculateBMI(Integer wight,Integer height){
         //var to hold bmi
