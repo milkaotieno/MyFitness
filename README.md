@@ -24,6 +24,8 @@ The app consumes API as in the link below:
 * https://ufile.io/zpkg40e9
 * Firebase functionalities implemented(IP3), 
   * https://ufile.io/zl41qe9b
+  
+* IP 4 https://ufile.io/zqjkr2sl
 
 ### Installation Process
 To install:-
